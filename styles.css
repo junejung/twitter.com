@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  font-family: 'courier';
+  background-color: #FDF6E3;
+
+}
+
+.navgation{
+	padding:10px; 
+	text-align: center;
+	background-color: #505050;
+	height: 30px;
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	margin-top:-70px;
+}
+
+.navgation a{
+	padding:10px; 
+	color: #FDF6E3;
+}
+
+.container form input{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	z-index: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #505050;
+}
+
+div.tweet{
+	margin: 20px 0px;
+	height: 60px;
+	opacity: .99;
+}
+
+div.tweet:hover {
+	opacity: 1;
+}	
+
+div#tweets{
+	margin-top: 30px;
+}
+
+button#home{
+	font-size: 13px;
+	width: 100px;
+	color: #505050;
+	background-color: #FDF6E3;
+	border-radius: 5px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border: none;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+
+form input#new_tweet_box{
+	background-color: #FDF6E3;
+	color: #B58900;
+	float: right;
+	font-size: 13px;
+	border: none;
+	margin: auto auto;
+	border-radius: 0px 5px 5px 0px;
+	height: 18px;
+	width: 250px;
+	position: relative;
+	font-weight: lighter;
+}
+
+form input#new_user_box{
+	background-color: #FDF6E3;
+	color: #B58900;
+	font-size: 13px;
+	border: none;
+	margin: auto auto;
+	border-radius: 5px 0px 0px 5px;
+	height: 18px;
+	width: 130px;
+	float: right;
+	position: relative;
+	font-weight: lighter;
+}
+
+
+form input#new_tweet_submit{
+	color: #505050;
+	font-size: 13px;
+	background-color: #FDF6E3;
+	float: right;
+	border: none;
+	margin-left:10px;
+	border-radius: 5px 5px;
+	position: relative;
+}
+
+img.userImgs{
+	width: 65px;
+	height: 60px;
+	float: left;
+	margin: 0px auto;
+	border-radius: 10px;
+	opacity: .80;
+}
+
+div.nav_container{
+	padding: 7px; 
+	margin: 0px auto; 
+	width: 600px;
+	height: 40px;
+}
+
+img.userImgs:hover{
+	opacity: 1;
+}
+
+.container{
+	margin: 70px auto 0px auto;
+	width: 650px;
+}
+
+.timeinfo{
+	font-size: 12px;
+	float: right;
+	margin-top: 14px;
+	color: #999;
+}
+
+span.user a{
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 10px;
+	color: #B58900;
+}
+
+span.message{
+	margin-left: 20px;
+	font-size: 17px;
+	color: #657B83;
+}

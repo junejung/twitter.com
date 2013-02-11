@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="http://necolas.github.com/normalize.css/2.0.1/normalize.css" rel="stylesheet" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="twitter_data.js"></script>
+  <script type="text/javascript" src="twitter_ui.js"></script>
+</head>
+<body>
+	<div class="navgation">
+		<div class="nav_container">
+			<button id="home" href='#'><span id="newnum"> </span>tweets</button>
+			<form>
+				<input type="submit" id="new_tweet_submit"/>
+				<input type="text" id="new_tweet_box" onfocus="this.value=''" value=":type a new line of tweet"></input>
+				<input type="text" id="new_user_box" onfocus="this.value=''" value=":type user name"></input>
+			</form>	
+		</div>
+	</div>
+	<div class="container">
+		<div id='tweets'></div>
+	</div>
+</body>
+</html>
